@@ -1,0 +1,31 @@
+shipyard-backend/
+│-- config/
+│   ├── db.js                   # Database connection
+│-- controllers/
+│   ├── authController.js        # Authentication logic
+│   ├── userController.js        # User management
+│   ├── adminController.js       # Admin-specific operations
+│   ├── serviceController.js     # Shipyard services
+│   ├── repairRequestController.js  # Ship repair management
+│   ├── teamController.js        # Team members management
+│   ├── vigilanceController.js   # Vigilance reports
+│-- middleware/
+│   ├── authMiddleware.js        # JWT token verification
+│   ├── adminMiddleware.js       # Admin access control
+│-- models/
+│   ├── User.js                  # User schema
+│   ├── Team.js                  # Team schema
+│   ├── Service.js               # Shipyard services
+│   ├── RepairRequest.js         # Ship repairs
+│   ├── VigilanceReport.js       # Vigilance complaints
+│   ├── AdminLog.js              # Admin logs
+│-- routes/
+│   ├── authRoutes.js            # Authentication routes
+│   ├── userRoutes.js            # User routes
+│   ├── adminRoutes.js           # Admin routes
+│   ├── serviceRoutes.js         # Services API
+│   ├── repairRoutes.js          # Ship repairs API
+│   ├── vigilanceRoutes.js       # Vigilance API
+│-- server.js                    # Main entry point
+│-- .env                         # Environment variables
+│-- package.json                 # Dependencies
