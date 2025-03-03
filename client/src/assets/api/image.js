@@ -14,7 +14,7 @@ export const team4 = "https://ik.imagekit.io/jjyo3gsee/img/team-4.jpg?updatedAt=
 
 // services image 
 export const ser1 = "https://ik.imagekit.io/snujhhriv/ship1.jfif?updatedAt=1740973611834"
-export const ser2 = "https://ik.imagekit.io/jjyo3gsee/img/service-2.jpg?updatedAt=1740122893279"
+export const ser2 = "https://ik.imagekit.io/snujhhriv/ship4.jfif?updatedAt=1740974260049"
 export const ser3 = "https://ik.imagekit.io/snujhhriv/ship2.jfif?updatedAt=1740973611754"
 export const ser4 = "https://ik.imagekit.io/snujhhriv/ship3.jfif?updatedAt=1740973611872"
 export const ser5 = "https://ik.imagekit.io/jjyo3gsee/img/service-5.jpg?updatedAt=1740122893493"

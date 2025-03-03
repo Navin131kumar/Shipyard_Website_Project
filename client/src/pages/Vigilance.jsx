@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { AlertTriangle, Mail, Phone, Shield } from "lucide-react";
-import { ser1 } from '../assets/api/image';
+import { ser1, ser2 } from '../assets/api/image';
 import Faq from '../components/Faq';
 import VigilanceReportForm from '../components/VigilantUserForm';
 
@@ -14,7 +14,7 @@ const Vigilance = () => {
           Vigilance Guidelines
         </h1>
         <img 
-          src={ser1}
+          src={ser2}
           alt="Vigilance Awareness" 
           className="w-full h-48 object-cover rounded-lg mb-4"
         />
@@ -54,7 +54,7 @@ const Vigilance = () => {
               </h3>
               <p className="text-gray-700">Name: Vijay</p>
               <p className="flex items-center text-gray-700">
-                <Mail className="w-5 h-5 text-orange-500 mr-2" /> vijay@gmail,com
+                <Mail className="w-5 h-5 text-orange-500 mr-2" /> vijay@gmail.com
               </p>
               <p className="flex items-center text-gray-700">
                 <Phone className="w-5 h-5 text-orange-500 mr-2" /> 7708391980
