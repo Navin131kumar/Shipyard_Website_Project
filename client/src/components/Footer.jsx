@@ -7,9 +7,9 @@ export default function Footer() {
         {/* Address Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Address</h3>
-          <p className="flex items-center gap-2"><span>&#x1F4CD;</span> 123 Street, New York, USA</p>
-          <p className="flex items-center gap-2"><span>&#x260E;</span> +012 345 67890</p>
-          <p className="flex items-center gap-2"><span>&#x2709;</span> info@example.com</p>
+          <p className="flex items-center gap-2"><span>&#x1F4CD;</span> No.10,Ravipuram,,Ernakulam,Kerela</p>
+          <p className="flex items-center gap-2"><span>&#x260E;</span> 6374667378</p>
+          <p className="flex items-center gap-2"><span>&#x2709;</span> Navin2004@gmail.com</p>
           <div className="flex space-x-4 mt-4">
             <a href="#" className="p-2 bg-gray-700 rounded-full hover:bg-gray-600">
               <FaTwitter className="text-white" />

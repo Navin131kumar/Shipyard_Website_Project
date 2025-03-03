@@ -39,10 +39,10 @@ export default function Navbar() {
               <li className='py-1 list-none font-[poppins]'>Tender</li>
               <hr className='border-none outline-none bg-primary h-0.5 w-3/4 m-auto hidden'/>
             </NavLink>
-            <NavLink to={'/team'}>
+            {/* <NavLink to={'/team'}>
               <li className='py-1 list-none font-[poppins]'>Team</li>
               <hr className='border-none outline-none bg-primary h-0.5 w-3/4 m-auto hidden'/>
-            </NavLink>
+            </NavLink> */}
             <NavLink to={'/vigilance'}>
               <li className='py-1 list-none font-[poppins]'>Vigilance</li>
               <hr className='border-none outline-none bg-primary h-0.5 w-3/4 m-auto hidden'/>

@@ -120,9 +120,9 @@ export default function   ExportRequestForm({stockId}) {
         <div>
           <label className="block text-sm font-semibold text-gray-600">Payment Mode</label>
           <select value={paymentMode} onChange={(e) => setPaymentMode(e.target.value)} className="w-full px-3 py-2 border rounded-lg focus:ring focus:ring-blue-300">
-            <option value="Credit Transfer">Credit Transfer</option>
-            <option value="Wire Transfer">Wire Transfer</option>
-            <option value="Letter of Credit">Letter of Credit</option>
+            <option value="Online payment">Online payment</option>
+            <option value="Cash on delivery">Cash on delivery</option>
+            <option value="Bank transfer">Bank Transfer</option>
           </select>
         </div>
 

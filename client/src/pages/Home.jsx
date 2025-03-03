@@ -53,7 +53,7 @@ const Home = () => {
     <div className=''>
         <div>
             <Slider {...settings} className=' h-screen overflow-hidden'>
-                <div className=' relative w-full h-screen bg-[url(https://ik.imagekit.io/jjyo3gsee/img/carousel-2.jpg?updatedAt=1740122894106)] bg-cover bg-center'> 
+                <div className=' relative w-full h-screen bg-[url(https://ik.imagekit.io/snujhhriv/ship4.jfif?updatedAt=1740974260049)] bg-cover bg-center'> 
                     <div className='z-10 bg-black absolute top-0 w-full h-screen opacity-60 bottom-0'>
                     </div>
                     <div className=' absolute top-[33%] px-4 sm:px-[10%] z-50'>
