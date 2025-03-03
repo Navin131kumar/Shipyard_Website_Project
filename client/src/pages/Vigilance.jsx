@@ -52,24 +52,24 @@ const Vigilance = () => {
               <h3 className="text-lg font-medium text-orange-700 flex items-center">
                 <Shield className="w-5 h-5 text-orange-500 mr-2" /> Chief Vigilance Officer (CVO)
               </h3>
-              <p className="text-gray-700">Name: [CVO Name]</p>
+              <p className="text-gray-700">Name: Vijay</p>
               <p className="flex items-center text-gray-700">
-                <Mail className="w-5 h-5 text-orange-500 mr-2" /> [CVO Email]
+                <Mail className="w-5 h-5 text-orange-500 mr-2" /> vijay@gmail,com
               </p>
               <p className="flex items-center text-gray-700">
-                <Phone className="w-5 h-5 text-orange-500 mr-2" /> [CVO Contact Number]
+                <Phone className="w-5 h-5 text-orange-500 mr-2" /> 7708391980
               </p>
             </div>
             <div>
               <h3 className="text-lg font-medium text-orange-700 flex items-center">
                 <AlertTriangle className="w-5 h-5 text-orange-500 mr-2" /> Assistant Vigilance Officer
               </h3>
-              <p className="text-gray-700">Name: [Assistant Officer Name]</p>
+              <p className="text-gray-700">Name: Shyam</p>
               <p className="flex items-center text-gray-700">
-                <Mail className="w-5 h-5 text-orange-500 mr-2" /> [Assistant Officer Email]
+                <Mail className="w-5 h-5 text-orange-500 mr-2" /> Shyam24@gmail.com
               </p>
               <p className="flex items-center text-gray-700">
-                <Phone className="w-5 h-5 text-orange-500 mr-2" /> [Assistant Officer Contact Number]
+                <Phone className="w-5 h-5 text-orange-500 mr-2" /> 7376541278
               </p>
             </div>
           </div>
