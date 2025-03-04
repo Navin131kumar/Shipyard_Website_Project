@@ -20,9 +20,6 @@ const stockRoutes = require("./routes/stockRoutes");
 const exportRequestRoutes = require("./routes/exportRequestRoutes");
 const connectCloudinary = require("./config/cloudinary");
 
-app.get("/",async(req,res)=>{
-    res.send("h1")
-})
 
 connectCloudinary();
 connectDB();
