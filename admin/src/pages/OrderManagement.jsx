@@ -2,9 +2,8 @@ import React, { useContext } from 'react';
 import axios from 'axios';
 import { AdminContext } from '../context/AdminContext';
 
-const UserManagement = () => {
-  const { aToken,backendUrl,userData } = useContext(AdminContext);
-  console.log(userData);
+const OrderManagement = () => {
+  const { aToken,backendUrl,tenderAppData } = useContext(AdminContext);
 
   const handleUpdate = async (orderId) => {
     try {
@@ -36,7 +35,7 @@ const UserManagement = () => {
     <div className='ml-20 py-10'>
       <h1 className='text-3xl'>Order Management</h1>
       <div className='grid md:grid-cols-2 grid-cols-1 gap-5 py-10'>
-        {userData.map((e) => (
+        {tenderAppData.map((e) => (
           <div key={e._id} className='flex flex-col border border-black p-3 rounded-lg gap-3'>
             <div className='flex flex-col gap-2'>
               <div className='grid gap-5 grid-cols-2'>
@@ -74,4 +73,4 @@ const UserManagement = () => {
   );
 };
 
-export default UserManagement;
+export default OrderManagement;

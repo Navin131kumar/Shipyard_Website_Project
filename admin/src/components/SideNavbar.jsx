@@ -21,10 +21,15 @@ const SideNavbar = () => {
               <p>Tenders</p>
           </NavLink>
 
-          <NavLink className={({isActive})=> ` flex items-center gap-3 py-3.5 px-5 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#F2F3FF] border-r-4 border-[#ff6600]' : ""}`} to={'/user-management'}>
+          <NavLink className={({isActive})=> ` flex items-center gap-3 py-3.5 px-5 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#F2F3FF] border-r-4 border-[#ff6600]' : ""}`} to={'/order-management'}>
               {/* <img src={assets.add_icon} alt="" /> */}
               <UserCheck />
               <p>Order Management</p>
+          </NavLink>
+          <NavLink className={({isActive})=> ` flex items-center gap-3 py-3.5 px-5 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#F2F3FF] border-r-4 border-[#ff6600]' : ""}`} to={'/user-management'}>
+              {/* <img src={assets.add_icon} alt="" /> */}
+              <UserCheck />
+              <p>User Managemt</p>
           </NavLink>
 
           <NavLink className={({isActive})=> ` flex items-center gap-3 py-3.5 px-5 md:px-9 md:min-w-72 cursor-pointer ${isActive ? 'bg-[#F2F3FF] border-r-4 border-[#ff6600]' : ""}`} to={'/vigilance'}>

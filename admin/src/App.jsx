@@ -6,6 +6,7 @@ import SideNavbar from './components/SideNavbar'
 import Dashboard from './pages/Dashboard'
 import Login from './pages/Login'
 import TenderApplication from './pages/TenderApplication'
+import OrderManagement from './pages/OrderManagement'
 import UserManagement from './pages/UserManagement'
 import VigilanceManagement from './pages/VigilanceManagement'
 
@@ -20,6 +21,7 @@ const App = () => {
         <Routes>
           <Route path='/admin-dashboard' element={<Dashboard/>} />
           <Route path='/all-tenders' element={<TenderApplication/>} />
+          <Route path='/order-management' element={<OrderManagement></OrderManagement>} />
           <Route path='/user-management' element={<UserManagement></UserManagement>} />
           <Route path='/vigilance' element={<VigilanceManagement></VigilanceManagement>} />
         </Routes>
