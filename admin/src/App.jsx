@@ -9,6 +9,7 @@ import TenderApplication from './pages/TenderApplication'
 import OrderManagement from './pages/OrderManagement'
 import UserManagement from './pages/UserManagement'
 import VigilanceManagement from './pages/VigilanceManagement'
+import StockManagement from './pages/StockManagement'
 
 const App = () => {
   const atoken = localStorage.getItem('aToken');
@@ -24,6 +25,8 @@ const App = () => {
           <Route path='/order-management' element={<OrderManagement></OrderManagement>} />
           <Route path='/user-management' element={<UserManagement></UserManagement>} />
           <Route path='/vigilance' element={<VigilanceManagement></VigilanceManagement>} />
+          <Route path='/stock-management' element={<StockManagement></StockManagement>} />
+
         </Routes>
       </div>
     </div>
