@@ -50,7 +50,7 @@ export default function Footer() {
         {/* Newsletter Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
-          <p className="text-gray-400">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <p className="text-gray-400">This should be just as important as the clita itsself.</p>
           <div className="flex mt-4">
             <input
               type="email"
