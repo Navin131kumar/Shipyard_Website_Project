@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Address Section */}
         <div>
           <h3 className="text-lg font-semibold mb-4">Address</h3>
-          <p className="flex items-center gap-2"><span>&#x1F4CD;</span> No.10,Ravipuram,,Ernakulam,Kerela</p>
+          <p className="flex items-center gap-2"><span>&#x1F4CD;</span> No.10,Ravipuram,,Ernakulam,Kerala</p>
           <p className="flex items-center gap-2"><span>&#x260E;</span> 6374667378</p>
           <p className="flex items-center gap-2"><span>&#x2709;</span> Navin2004@gmail.com</p>
           <div className="flex space-x-4 mt-4">
